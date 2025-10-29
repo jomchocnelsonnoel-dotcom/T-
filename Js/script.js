@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `"MARI, un susurro de cariño que guardo en el corazón, un recordatorio de que te quiero más de lo que las palabras pueden decir, y la promesa de estar junto a ti en cada paso. Que cada gesto mío te haga sentir lo especial que eres, hoy y siempre..`;  } else {
+    text = `"PARA TI MIGDALIA, Eres una gran mujer, eres una persona especial para mí. Se te quiere mucho💛`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
